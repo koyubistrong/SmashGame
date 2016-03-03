@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\main">
+      <UniqueIdentifier>{54cff109-5ffc-4c49-b57e-201c601d038a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main\Smash">
+      <UniqueIdentifier>{dceb1e9a-8104-41ad-9e7c-fc4305c52983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main\MiniGame">
+      <UniqueIdentifier>{669e64d3-4a37-40c8-ad8a-6b2edeb10af9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main\Option">
+      <UniqueIdentifier>{87ba2116-2c62-4838-a3c5-4a9db1b566b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main\Title">
+      <UniqueIdentifier>{86d38f37-7834-42e8-875c-c19c8da05e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main\Smash\Game">
+      <UniqueIdentifier>{d8aeedb1-b08a-4125-9605-6c29cba14f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main\Smash\CharacterSelect">
+      <UniqueIdentifier>{b9756241-a5fa-46b7-98d3-da7ca1f868f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main\Smash\StageSelect">
+      <UniqueIdentifier>{afaa81d1-76df-4d2d-a8da-66533debf797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main\Smash\Result">
+      <UniqueIdentifier>{d2892ff3-b0eb-45c6-8f1b-8bdcf927f322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main\Smash\Setting">
+      <UniqueIdentifier>{910f97af-b639-4ec5-a764-9e19130ac262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main\MiniGame\Game">
+      <UniqueIdentifier>{63682c47-a76d-4188-ad2f-44b945731d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main\MiniGame\Result">
+      <UniqueIdentifier>{3a2429ee-9b7f-497e-bbd4-aeea06944c55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main\MiniGame\CharacterSelect">
+      <UniqueIdentifier>{df6f932d-8de3-4a39-b7ff-fa5d18ba0513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main\Menu">
+      <UniqueIdentifier>{6a332312-8ea6-4f8a-a6ce-a5a1c32c6afd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CSV.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="extern.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="MainSequence.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>ソース ファイル\main\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>ソース ファイル\main\Smash\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>ソース ファイル\main\Smash\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicObject.cpp">
+      <Filter>ソース ファイル\main\Smash\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Movement.cpp">
+      <Filter>ソース ファイル\main\Smash\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>ソース ファイル\main\Smash\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticObject.cpp">
+      <Filter>ソース ファイル\main\Smash\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>ソース ファイル\main\Smash\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterSelect.cpp">
+      <Filter>ソース ファイル\main\Smash\CharacterSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="SmashSequence.cpp">
+      <Filter>ソース ファイル\main\Smash</Filter>
+    </ClCompile>
+    <ClCompile Include="StageSelect.cpp">
+      <Filter>ソース ファイル\main\Smash\StageSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Result.cpp">
+      <Filter>ソース ファイル\main\Smash\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting.cpp">
+      <Filter>ソース ファイル\main\Smash\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniSequence.cpp">
+      <Filter>ソース ファイル\main\MiniGame</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMini.cpp">
+      <Filter>ソース ファイル\main\MiniGame\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticObjectMini.cpp">
+      <Filter>ソース ファイル\main\MiniGame\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicObjectMini.cpp">
+      <Filter>ソース ファイル\main\MiniGame\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\main\Smash\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Computer.cpp">
+      <Filter>ソース ファイル\main\Smash\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterSelectMini.cpp">
+      <Filter>ソース ファイル\main\MiniGame\CharacterSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultMini.cpp">
+      <Filter>ソース ファイル\main\MiniGame\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>ソース ファイル\main\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Option.cpp">
+      <Filter>ソース ファイル\main\Option</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Array2D.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="HanteiImage.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="extern.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CSV.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="MainSequence.h">
+      <Filter>ソース ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>ソース ファイル\main\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>ソース ファイル\main\Smash\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>ソース ファイル\main\Smash\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>ソース ファイル\main\Smash\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicObject.h">
+      <Filter>ソース ファイル\main\Smash\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Movement.h">
+      <Filter>ソース ファイル\main\Smash\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>ソース ファイル\main\Smash\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObject.h">
+      <Filter>ソース ファイル\main\Smash\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterSelect.h">
+      <Filter>ソース ファイル\main\Smash\CharacterSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="JoyPad.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SmashSequence.h">
+      <Filter>ソース ファイル\main\Smash</Filter>
+    </ClInclude>
+    <ClInclude Include="StageSelect.h">
+      <Filter>ソース ファイル\main\Smash\StageSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Result.h">
+      <Filter>ソース ファイル\main\Smash\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting.h">
+      <Filter>ソース ファイル\main\Smash\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniSequence.h">
+      <Filter>ソース ファイル\main\MiniGame</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObjectMini.h">
+      <Filter>ソース ファイル\main\MiniGame\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicObjectMini.h">
+      <Filter>ソース ファイル\main\MiniGame\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ソース ファイル\main\Smash\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Computer.h">
+      <Filter>ソース ファイル\main\Smash\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterSelectMini.h">
+      <Filter>ソース ファイル\main\MiniGame\CharacterSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultMini.h">
+      <Filter>ソース ファイル\main\MiniGame\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>ソース ファイル\main\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInfomation.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Option.h">
+      <Filter>ソース ファイル\main\Option</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
